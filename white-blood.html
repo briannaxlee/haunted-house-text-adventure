@@ -3,20 +3,25 @@
 
 <head>
 <title>Haunted House</title>
+<style>
+body{
+  background-color: #f9f9f9;
+  color: #000000;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;"}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+  font-size:35px;
+  padding-left: 550px;"}
+</style>
 </head>
 
-<body style="background-color: #330000;">
-
-<h1 style="font-family:Times New Roman;
-          color: #000000;
-          text-align: center;
-          text-shadow: 2px 2px #ffffff;
-          font-size:30px;">Haunted House Adventure</h1>
-<br>
-<p style="font-family:Times New Roman;
-          color: #ffffff;
-          text-align: center;
-          font-size:20px;">
+<body>
+<h1>Haunted House</h1>
+<h2><u>Story Intro</u></h2>
 You've gone through the white door with dried blood on it and it leads you to a room filled with hanging skeletons
 that move and talk as if they're alive. You make your way through the room until you find a carnival ride. You get
 into the cart and move the lever. The floor then opens up and you fall through to the basement. Once you're in the
@@ -24,11 +29,11 @@ basement, you get off the ride and take a step into the water, which reaches up 
 there are eels in the water. Do you risk getting shocked by eels or do you get back onto the ride and wait for
 someone to save you?
 </p>
+<input class="shocked-eels" type="button" value="Risk getting shocked by the eels" onclick="window.location.href='shocked-eels.html'" />
 <br>
-<a href="shocked-eels.html">Risk getting shocked by the eels</a>
-<br>
-<br><a href="wait-help.html">Get back on the ride and wait for help</a>
+<br><input class="wait-help" type="button" value="Get back on the ride and wait for help" onclick="window.location.href='wait-help.html'" />
 <br>
 </p>
+
 </body>
 </html>
