@@ -19,6 +19,18 @@ h1 {
   padding-left: 550px;"}
 </style>
 </head>
+  
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 <body>
 <h1><a href="index.html">Haunted House</a></h1>
@@ -36,10 +48,9 @@ door do you choose?
 <br>
 </p>
 <br>
-<table><tr><td>
-<img src="cautiontape.jpg" alt="Door with caution tape">
-</td><td>
-<img src="jigsaw.jpg" alt="Jig saw>
-</td></tr></table>
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
 </body>
 </html>
